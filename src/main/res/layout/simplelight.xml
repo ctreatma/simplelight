@@ -9,4 +9,11 @@
     android:id="@+id/lightToggle"
     tools:context=".SimpleLight">
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/instructions"
+            android:layout_gravity="center"/>
 </FrameLayout>
